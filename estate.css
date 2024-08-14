@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.164), rgba(0, 0, 255, 0.39)), url(images/pexels-pixabay-269077.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}
+nav h1{
+    font-size: 40px;
+    color: goldenrod;
+}
+nav input{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.hero{
+    /* display: flex; */
+    padding-top: 13vw;
+    padding-left: 10vw;
+    color: white;
+}
+.hero h1{
+    font-size: 40px;
+    font-weight: 100;
+    color: goldenrod;
+}
+.hero p{
+    margin-top: 15px;
+    line-height: 2;
+    font-size: 20px;
+}
+.hero button{
+    padding: 20px 60px;
+    background: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.herosection{
+    height: 90vh;
+    padding-left: 12vw;
+    padding-top: 4vw;
+    overflow: hidden;
+}
+.herosection p{
+    line-height: 2;
+}
+.herosection img{
+    width: 90%;
+    /* height: 500px; */
+}
+.herosection button{
+    padding: 20px 60px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    position: relative;
+    bottom: 0%;
+}
+#two{
+    height: 440px;
+    margin-top: -100px; 
+}
+#three{
+    height: 540px;
+    margin-top: -200px; 
+}
+.about{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    padding: 6vw 10vw;
+}
+.about img{
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.us{
+    width: 100%;
+}
+.us h1{
+    padding-top: 10vw;
+}
+.us p{
+    line-height: 2;
+    margin-top: 30px;
+}
+.us button{
+    padding: 20px 60px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+.what{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    height: 70vh;
+    padding: 12vw 10vw;
+}
+.what img{
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.are h1{
+    padding-top: 7vw;
+}
+.are p{
+    margin-top: 25px;
+    line-height: 2;
+}
+.are button{
+    padding: 20px 60px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+.news{
+    text-align: center;
+    margin-top: 13vw;
+    padding: 2vw 15vw;
+    color: #fff;
+    height: 30vh;
+    line-height: 2;
+    background: rgb(0, 60, 255);
+}
+.news button{
+    padding: 20px 60px;
+    background: blue;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+iframe{
+    width: 80%;
+    height: 70vh;
+}
